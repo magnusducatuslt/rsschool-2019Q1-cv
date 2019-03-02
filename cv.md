@@ -35,7 +35,3 @@ Gaidar Sinyakov
 ## Level of English
 
 - intermediate
-
-```
-1
-```
