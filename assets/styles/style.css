@@ -1,11 +1,48 @@
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato-Black.ttf);
+   }
+   @font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato-Regular.ttf);
+   }
+   @font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-Bold.ttf);
+   }
+   @font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato-Black.ttf);
+   }
+   @font-face {
+    font-family: MavenProRegular;
+    src: url(../fonts/MavenPro-Regular.ttf);
+   }
+   h1{
+    position: absolute;
+    visibility: hidden;
+  }
+  html{
+    width:100%;
+    height: 100%;
+    background:green;
+  }
+  
 body {
+    display:flex;
+    flex-flow:column nowrap;
     width: 100%;
     height: 100%;
     background: red;
+    margin: 0;
 }
-.container{
+main{
     width: 1024px;
     background: white;
+    font-family: Lato-Regular,"Arial", sans-serif;
+}
+h2{
+    font-family: MavenProRegular,"Arial", sans-serif;
 }
 header{
     background: blue;
